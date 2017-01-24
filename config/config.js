@@ -58,10 +58,11 @@ var config = {
 	}, {
 		module: 'currentweather',
 		position: 'top_right',
+		header: 'Weather Forecast',
 		config: {
 			location: 'amman',
-			locationID: '', //ID from http://www.openweathermap.org
-			appid: 'YOUR_OPENWEATHER_API_KEY'
+			locationID: '250441', //ID from http://www.openweathermap.org
+			appid: '<you api key>'
 		}
 	}, {
 		module: 'weatherforecast',
@@ -70,7 +71,7 @@ var config = {
 		config: {
 			location: 'amman',
 			locationID: '250441', //ID from http://www.openweathermap.org
-			appid: 'e332b9172f6b6834d09a2cb1aae1f2fc'
+			appid: '<you api key>'
 		}
 	}, {
 		module: 'newsfeed',

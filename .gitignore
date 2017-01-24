@@ -1,5 +1,5 @@
 # Various Node ignoramuses.
-
+keys.sec
 logs
 *.log
 npm-debug.log*
